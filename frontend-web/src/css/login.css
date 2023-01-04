@@ -1,0 +1,42 @@
+		.container {
+	    	padding: 50px;
+			background-color: #eee;
+			border-radius: 20px;
+		}
+		.col-input {
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+		}
+
+		input {
+			width: 30%;
+			border: 2px solid #eee;
+			padding: 10px;
+			border-radius: 15px;	
+			outline: none;		
+		}
+
+		input:focus {
+			border: 2px solid blue;			
+		}
+		button[type=button] {
+			border: none;
+			width: 70px;
+			padding: 10px;
+			background-color: green;
+			color: white;
+			border-radius: 7px;
+			outline: none;
+			cursor: pointer;
+		}
+
+		button[type=button]:hover {
+			opacity: .4;
+			background-color: green;
+		}
+
+		button:disabled {
+			opacity: .4;
+			cursor: inherit;
+		}

@@ -1,0 +1,11 @@
+
+.container {
+	padding: 20px;
+}
+
+select {
+	padding: 10px;
+	outline: none;
+	border: 2px solid #eee;
+	border-radius: 5px;
+}
